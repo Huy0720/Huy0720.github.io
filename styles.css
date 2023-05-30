@@ -37,8 +37,28 @@
   
   /* Style the footer */
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333;
     padding: 20px;
     text-align: center;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #0077B5; /* LinkedIn blue color */
   }
