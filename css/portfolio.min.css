@@ -102,12 +102,12 @@ fieldset[disabled] .btn-primary.active,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    background-color: #018185;
-    border-color: #018185
+    background-color: #132a7a;
+    border-color: #132a7a
 }
 
 .btn-primary .badge {
-    color: #018185;
+    color: #132a7a;
     background-color: #fff
 }
 
@@ -126,8 +126,8 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl:hover,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #3bbfc3;
-    border-color: #40af93
+    background-color: #3852b0;
+    border-color: #132a7a
 }
 
 .btn-xl.disabled,
