@@ -1,5 +1,6 @@
 var RankedProjects=[
-    Projects.Details.WorkInProgress
+    Projects.Details.WorkInProgress,
+    Projects.Details.FragmentedMind
 ]
 //Functions
 SetPorfolioElements();
