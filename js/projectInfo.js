@@ -33,6 +33,15 @@ const Projects = {
             DownloadLink: "",
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
+        },
+        Reversi: {
+            ID: "Reversi",
+            Name: "Reversi",
+            SmallDescription: "Python, Mathplotlib",
+            LargeDescription: 'TBA',
+            DownloadLink: "https://github.com/Huy0720/Reversi",
+            EmbedVideoLinkID: "",
+            NoOfProjectImages: 1
         }
     }
 };

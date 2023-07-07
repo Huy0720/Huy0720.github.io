@@ -1,7 +1,8 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
     Projects.Details.FragmentedMind,
-    Projects.Details.VRModelFactory
+    Projects.Details.VRModelFactory,
+    Projects.Details.Reversi
 ]
 //Functions
 SetPorfolioElements();
