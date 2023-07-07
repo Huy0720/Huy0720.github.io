@@ -1,6 +1,7 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
-    Projects.Details.FragmentedMind
+    Projects.Details.FragmentedMind,
+    Projects.Details.VRModelFactory
 ]
 //Functions
 SetPorfolioElements();
@@ -57,7 +58,7 @@ function ResetModalParams(){
 function SetModalParams(id){
     var ProjectDetail = Projects.Details[id];
     if(ProjectDetail){ 
-        showLoader();
+        //showLoader();
         document.getElementById("modal-projectname").innerHTML= ProjectDetail.Name;
         document.getElementById("modal-projectsmalldescription").innerHTML= ProjectDetail.SmallDescription;
         document.getElementById("modal-projectlargedescription").innerHTML= ProjectDetail.LargeDescription;
@@ -72,8 +73,8 @@ function SetModalParams(id){
         elem= document.getElementById("modal-videoiframe");
         if(ProjectDetail.EmbedVideoLinkID){
             $(elem).show();
-            elem.setAttribute('src', 'https://www.youtube.com/embed/'+ProjectDetail.EmbedVideoLinkID+'/?mute=1');
-            elem.setAttribute('onload',"hideLoader()");
+            elem.setAttribute('src', ProjectDetail.EmbedVideoLinkID);    
+            elem.setAttribute('onload',"hideLoader()");            
         }
         else{
             $(elem).hide();

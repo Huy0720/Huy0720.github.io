@@ -22,6 +22,15 @@ const Projects = {
             SmallDescription: "Serious Game, C#, Unity3D",
             LargeDescription: 'TBA',
             DownloadLink: "",
+            EmbedVideoLinkID: "vid/FragmentedMind.mp4",
+            NoOfProjectImages: 1
+        },
+        VRModelFactory: {
+            ID: "VRModelFactory",
+            Name: "VR @ Model Factory",
+            SmallDescription: "Unity, VR, C#",
+            LargeDescription: 'TBA',
+            DownloadLink: "",
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         }
