@@ -20,7 +20,8 @@ const Projects = {
             ID: "FragmentedMind",
             Name: "Fragmented Mind",
             SmallDescription: "Serious Game, C#, Unity3D",
-            LargeDescription: 'TBA',
+            LargeDescription: 
+            'Schizophrenia is a serious mental illness that is characterized by symptoms such as delusions, hallucinations, disorganized thinking, and abnormal behaviors. Despite its prevalence, schizophrenia remains a highly stigmatized and misunderstood condition, which often leads to misconceptions and discrimination towards people who suffer from it.<br> Our game aims to provide a unique perspective on schizophrenia by allowing players to experience firsthand what it is like to live with the disorder. This is achieved through our collective research into the common symptoms of schizophrenia, from existing games to books written on the matter. Through these, we decide to include features that will simulate the cognitive and perceptual distortions that people with schizophrenia often experience, such as altered sensory perceptions, paranoid delusions, and disorganized thinking. By immersing players in this simulated reality, the game seeks to raise awareness about the complexity and severity of the disorder and to promote empathy and understanding towards people with schizophrenia.',
             DownloadLink: "",
             EmbedVideoLinkID: "../vid/FragmentedMind.mp4",
             NoOfProjectImages: 1
@@ -29,7 +30,7 @@ const Projects = {
             ID: "VRModelFactory",
             Name: "VR @ Model Factory",
             SmallDescription: "Unity, VR, C#",
-            LargeDescription: 'TBA',
+            LargeDescription: 'The Model Factory@SIMTech features an actual production environment that allows for experiential experimentation and learning of digitalisation technologies for Industry 4.0. <br> VR@Model Factory enables immersive capabilities to enable virtual training, reducing downtime on physical machines that matters in production to make way for training. Virtual training can also be performed many times over, ensuring staff are adequately trained, as well as allowing easy revisiting of training materials easily when required.',
             DownloadLink: "",
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
@@ -38,10 +39,13 @@ const Projects = {
             ID: "Reversi",
             Name: "Reversi",
             SmallDescription: "Python, Mathplotlib",
-            LargeDescription: 'TBA',
+            LargeDescription: 'Reversi is a strategy board game played on an 8x8 or 4x4 board. <br>  The game is played using identical game pieces called discs (denoted as tiles in the documentation), which are white on one side and black on the other.  The game begins with four disks placed in a square in the middle of the grid, two facing white-side-up, two black-side-up, so that the same-colored disks are on a diagonal. Players take turns placing disks on the board by inputting the coordinate in (x,y) format, where x denotes the horizontal position while y indicates the vertical position. <br> During a play, any disks of the opponent color that are in a straight line and bounded by the disk just placed and another disk of the current player color are turned over to the current player color. <br> The objective of the game is to capture as many disks as possible until there is no valid move available. The player with the most pieces on the board at the end of the game wins; the game can also end in a draw when 2 players end up with the same number of disks. <br> Our group implemented a variation of the game that ends as long as the player has no valid moves (not both). This removes the need for timed moves and allows us to shorten the length of each game.',
             DownloadLink: "https://github.com/Huy0720/Reversi",
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         }
     }
 };
+
+
+
