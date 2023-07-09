@@ -1,7 +1,9 @@
 var RankedProjects=[
-    Projects.Details.WorkInProgress,
+    /*Projects.Details.WorkInProgress,*/
     Projects.Details.FragmentedMind,
+    Projects.Details.GalaxiesCluster,
     Projects.Details.VRModelFactory,
+    Projects.Details.HateSpeech,
     Projects.Details.Reversi
 ]
 //Functions
