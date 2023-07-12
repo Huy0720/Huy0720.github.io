@@ -42,7 +42,7 @@ const Projects = {
             LargeDescription: 'The Model Factory@SIMTech features an actual production environment that allows for experiential experimentation and learning of digitalisation technologies for Industry 4.0. <br> VR@Model Factory enables immersive capabilities to enable virtual training, reducing downtime on physical machines that matters in production to make way for training. Virtual training can also be performed many times over, ensuring staff are adequately trained, as well as allowing easy revisiting of training materials easily when required.',
             DownloadLink: "https://www.a-star.edu.sg/simtech/model-factory@simtech/overview",
             EmbedVideoLinkID: "",
-            NoOfProjectImages: 6
+            NoOfProjectImages: 5
         },
         HateSpeech: {
             ID: "HateSpeech",
