@@ -24,7 +24,7 @@ const Projects = {
             'Schizophrenia is a serious mental illness that is characterized by symptoms such as delusions, hallucinations, disorganized thinking, and abnormal behaviors. Despite its prevalence, schizophrenia remains a highly stigmatized and misunderstood condition, which often leads to misconceptions and discrimination towards people who suffer from it.<br> Our game aims to provide a unique perspective on schizophrenia by allowing players to experience firsthand what it is like to live with the disorder. This is achieved through our collective research into the common symptoms of schizophrenia, from existing games to books written on the matter. Through these, we decide to include features that will simulate the cognitive and perceptual distortions that people with schizophrenia often experience, such as altered sensory perceptions, paranoid delusions, and disorganized thinking. By immersing players in this simulated reality, the game seeks to raise awareness about the complexity and severity of the disorder and to promote empathy and understanding towards people with schizophrenia.',
             DownloadLink: "",
             EmbedVideoLinkID: "../vid/FragmentedMind.mp4",
-            NoOfProjectImages: 1
+            NoOfProjectImages: 13
         },
         GalaxiesCluster: {
             ID: "GalaxiesCluster",
