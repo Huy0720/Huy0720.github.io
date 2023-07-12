@@ -28,8 +28,8 @@ const Projects = {
         },
         GalaxiesCluster: {
             ID: "GalaxiesCluster",
-            Name: "Galaxies Cluster Statistical Estimation",
-            SmallDescription: "Statistical Inference, R",
+            Name: "Simulation-based Inference on Galaxies Cluster",
+            SmallDescription: "Computational Statistics, R",
             LargeDescription: "This is an academic project as part of my course: Computational Statistics, where we are required to apply statistical methods we’ve learnt on a self-sourced dataset, formulate a problem statement and find a solution to that problem. <br> Through conducted secondary research on scholarly articles and peer-reviewed journals, our group have decided to base our dataset on 820 galaxies in the Corona Borealis region. Our problem statement, thus, is whether these galaxies belongs to cluster(s) and if so, how many. <br> From preliminary data visualization, we concluded there are 3 major clusters in this dataset. We then decided to use Bayesian inference (A major topic in the course) to help determine which galaxies belong to which cluster in the following steps: <br><ol><li> Apply Bayes’s Theorem to model the relationship between the observed data (galaxies) and the latent variable (clusters)</li><li> Use the posterior distribution derived from Bayes’s Theorem along with the observed data in Gibb’s sampling to simulate a Markov chain, allowing for inference of latent variables and mixing proportions.</li> </ol>While we managed to estimate and validate our results, we later realized this can also be solved using EM Algorithm, which works as followed:<ol><li> In the E step, the Q function, which is the log likelihood function of observing the data given the parameters, is calculated</li><li> In the M step, the parameters that maximizes the above Q function is calculated..</li> </ol>The 2 steps are then repeated until convergence condition is met. With this method, we were able to achieve the same result but with less computational time.",
             DownloadLink: "",
             EmbedVideoLinkID: "",
