@@ -61,7 +61,7 @@ function ResetModalParams(){
 function SetModalParams(id){
     var ProjectDetail = Projects.Details[id];
     if(ProjectDetail){ 
-        //showLoader();
+        showLoader();
         document.getElementById("modal-projectname").innerHTML= ProjectDetail.Name;
         document.getElementById("modal-projectsmalldescription").innerHTML= ProjectDetail.SmallDescription;
         document.getElementById("modal-projectlargedescription").innerHTML= ProjectDetail.LargeDescription;
@@ -78,7 +78,8 @@ function SetModalParams(id){
             $(elem).show();
             elem.setAttribute('src', ProjectDetail.EmbedVideoLinkID);   
             elem.setAttribute('type', 'video/mp4'); 
-            elem.setAttribute('onload',"hideLoader()");            
+            hideLoader();
+            //elem.setAttribute('onload',"hideLoader()");            
         }
         else{
             $(elem).hide();
