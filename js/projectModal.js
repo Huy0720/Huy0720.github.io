@@ -1,5 +1,5 @@
 var RankedProjects=[
-    /*Projects.Details.WorkInProgress,*/
+    Projects.Details.WorkInProgress,
     Projects.Details.FragmentedMind,
     Projects.Details.GalaxiesCluster,
     Projects.Details.VRModelFactory,

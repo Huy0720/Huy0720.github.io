@@ -9,13 +9,13 @@ const Projects = {
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         },
-        /*WorkInProgress: {
+        WorkInProgress: {
             ID: "WorkInProgress",
             Name: "Work In Progress",
-            SmallDescription: "PC",
+            SmallDescription: "Python, SQL, Scikit",
             LargeDescription: "Have you heard my Under Construction joke?<br>It's not done yet",
             NoOfProjectImages: 1
-        },*/
+        },
         FragmentedMind: {
             ID: "FragmentedMind",
             Name: "Fragmented Mind",
@@ -40,9 +40,9 @@ const Projects = {
             Name: "VR @ Model Factory",
             SmallDescription: "Unity, VR, C#",
             LargeDescription: 'The Model Factory@SIMTech features an actual production environment that allows for experiential experimentation and learning of digitalisation technologies for Industry 4.0. <br> VR@Model Factory enables immersive capabilities to enable virtual training, reducing downtime on physical machines that matters in production to make way for training. Virtual training can also be performed many times over, ensuring staff are adequately trained, as well as allowing easy revisiting of training materials easily when required.',
-            DownloadLink: "",
+            DownloadLink: "https://www.a-star.edu.sg/simtech/model-factory@simtech/overview",
             EmbedVideoLinkID: "",
-            NoOfProjectImages: 1
+            NoOfProjectImages: 6
         },
         HateSpeech: {
             ID: "HateSpeech",
