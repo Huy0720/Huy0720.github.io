@@ -6,6 +6,38 @@ var RankedProjects=[
     Projects.Details.HateSpeech,
     Projects.Details.Reversi
 ]
+
+// Add an event listener to the filter buttons
+document.addEventListener("DOMContentLoaded", function () {
+    var filterButtons = document.querySelectorAll(".filter-btn");
+    filterButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            var filter = button.getAttribute("data-filter");
+            FilterProjects(filter);
+        });
+    });
+});
+
+// Function to filter and display projects based on the selected filter
+function FilterProjects(filter) {
+    var portfolioElements = document.querySelectorAll(".portfolio-item");
+
+    portfolioElements.forEach(function (element) {
+        var projectId = element.firstElementChild.id;
+        var projectDetail = Projects.Details[projectId];
+
+        if (filter === "all" || projectDetail.Category === filter) {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+
+    });
+}
+
+
+
+
 //Functions
 SetPorfolioElements();
 function SetPorfolioElements(){
@@ -126,3 +158,4 @@ function showLoader(){
 function hideLoader(){    
     $(document.getElementById('loader')).hide();
 }
+

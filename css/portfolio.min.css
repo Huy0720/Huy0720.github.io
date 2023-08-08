@@ -315,9 +315,11 @@ section h3.section-subheading {
     font-style: italic
 }
 
+/*
 section {
-    padding: 100px 0
+     padding: 0px 0 
 }
+*/
 
 section h2.section-heading {
     font-size: 40px;
@@ -329,12 +331,25 @@ section h3.section-subheading {
     font-size: 16px;
     text-transform: none;
     font-weight: 400;
-    margin-bottom: 75px
+    margin-bottom: 65px
 }
+
+/* Add some spacing above the filter bar */
+#filter-bar {
+    margin-bottom: 35px;
+}
+
+/* Adjust the spacing between the filter buttons */
+.filter-btn {
+    margin: 0px;
+    min-width: 320px;
+    min-height: 50px;
+}
+
 
 @media (min-width:768px) {
     section {
-        padding: 150px 0
+        padding: 100px 0 150px 0
     }
 }
 
