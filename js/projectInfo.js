@@ -69,6 +69,26 @@ const Projects = {
             EmbedVideoLinkID: "../vid/Reversi.mp4",
             NoOfProjectImages: 3,
             Category: "game"
+        },
+        BigHands: {
+            ID: "BigHands",
+            Name: "Big Hands",
+            SmallDescription: "Unity, C#, 2D Topdown Roguelike",
+            LargeDescription: 'TBA',
+            DownloadLink: "",
+            EmbedVideoLinkID: "",
+            NoOfProjectImages: 0,
+            Category: "game"
+        },
+        DistractedDriver: {
+            ID: "DistractedDriver",
+            Name: "Distracted Driver Detection",
+            SmallDescription: "Image Classification, Tensorflow",
+            LargeDescription: 'Drawing inspiration from alarming statistics indicating the prevalence of distracted driving-related accidents, our group engaged in a Kaggle competition sponsored by State Farm to tackle the critical issue of distracted driving . The objective was to develop a robust model capable of automatically detecting various distracted behaviors exhibited by drivers. <br><br>The dataset, comprising ≈79,700 2D dashboard camera images for training and ≈22,400 for testing. After augmenting the dataset to fortify the training set using the Augmentator library, our group explored the efficacy of six distinct models: a Custom Convolutional Neural Network (CNN), DenseNet, VGG-16, ResNet, EfficientNet, and an Ensemble Learning approach that seamlessly integrated insights from all previous models. Ensemble Learning, combining the strengths of the individual models into a unified and optimized predictive framework, emerged as the best performing model using evaluation metrics of cross-entropy loss, as well as our internal evaluation using F1 score.',
+            DownloadLink: "",
+            EmbedVideoLinkID: "",
+            NoOfProjectImages: 0,
+            Category: "data"            
         }
     }
 };
