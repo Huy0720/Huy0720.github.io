@@ -74,10 +74,10 @@ const Projects = {
             ID: "BigHands",
             Name: "Big Hands",
             SmallDescription: "Unity, C#, 2D Topdown Roguelike",
-            LargeDescription: 'TBA',
+            LargeDescription: '<b>Big Hands</b> is a top-down 2D Dungeon Crawler Roguelike that takes a bold departure from the norm. In this game, players find themselves immersed in the relentless grind of the corporate world, but with a twist – the protagonist has had enough and is ready to unleash their pent-up frustration on everyone in the office. The premise centres around corporate rage, as the protagonist, tired of their 9 to 5 job, decides to climb the corporate ladder by eliminating everyone in their path.<br><br>Distinguishing itself from other games in the genre, <b>Big Hands</b> introduces a unique <b>melee-based combat system</b> reminiscent of classics like “The Binding of Isaac”. While some roguelike titles focus on range-based fighting, this game emphasises the visceral satisfaction of hand-to-hand combat. The core mechanics involve making tactical choices of: deciding which room to enter first, how to engage enemies, etc. as well as reflexes and precision (dodging enemies’ attacks, hitting at the right time), ensuring a dynamic and engaging experience. <br><br>Whether you like roguelike adventures, crave satisfying melee combat, or simply hold an unquenchable thirst for wanton violence, you’ll be able to gain insight into the innovative mechanics, engaging gameplay, and the enticing narrative that go into the conceptualization of this game from this document. Join us in the immersive world of <b>Big Hands</b>, where the corporate ladder becomes a battlefield, and every punch is a step toward liberation.',
             DownloadLink: "",
             EmbedVideoLinkID: "Yrs19Ztgk7s",
-            NoOfProjectImages: 0,
+            NoOfProjectImages: 5,
             Category: "game"
         },
         DistractedDriver: {
