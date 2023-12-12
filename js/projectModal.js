@@ -109,11 +109,23 @@ function SetModalParams(id){
         }        
         elem= document.getElementById("modal-videoiframe");
         if(ProjectDetail.EmbedVideoLinkID){
-            $(elem).show();
-            elem.setAttribute('src', ProjectDetail.EmbedVideoLinkID);   
-            elem.setAttribute('type', 'video/mp4'); 
-            hideLoader();
-            //elem.setAttribute('onload',"hideLoader()");            
+            if (ProjectDetail.EmbedVideoLinkID.endsWith('.mp4')) {
+                // MP4 video
+                $(elem).show();
+                elem.setAttribute('src', ProjectDetail.EmbedVideoLinkID);
+                elem.setAttribute('type', 'video/mp4');
+                hideLoader();
+            } else {
+                // YouTube video
+                $(elem).show();
+                elem.setAttribute('src', 'https://www.youtube.com/embed/' + ProjectDetail.EmbedVideoLinkID + '/?mute=1');
+                hideLoader();
+            }
+            // $(elem).show();
+            // elem.setAttribute('src', ProjectDetail.EmbedVideoLinkID);   //elem.setAttribute('src', 'https://www.youtube.com/embed/'+ProjectDetail.EmbedVideoLinkID+'/?mute=1');
+            // elem.setAttribute('type', 'video/mp4'); 
+            // hideLoader();
+            // //elem.setAttribute('onload',"hideLoader()");            
         }
         else{
             $(elem).hide();
