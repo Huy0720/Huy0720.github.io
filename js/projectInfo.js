@@ -13,7 +13,7 @@ const Projects = {
         WorkInProgress: {
             ID: "WorkInProgress",
             Name: "Work In Progress",
-            SmallDescription: "Python, SQL, Scikit",
+            SmallDescription: "Python, SQL, Flask, Docker",
             LargeDescription: "Coming soon!",
             NoOfProjectImages: 1,
             Category: "" 
@@ -24,7 +24,7 @@ const Projects = {
             SmallDescription: "Serious Game, Unity3D, C#",
             LargeDescription: 
             'Schizophrenia is a serious mental illness that is characterized by symptoms such as delusions, hallucinations, disorganized thinking, and abnormal behaviors. That said, schizophrenia remains a highly stigmatized and misunderstood condition, which often leads to misconceptions and discrimination towards people who suffer from it. Our game aims to provide a unique perspective on schizophrenia by allowing players to experience firsthand what it is like to live with the disorder.<br><br>Collaborating closely with artists, audio engineers, and a dedicated scriptwriter, our team orchestrated the development of an immersive first-person simulation, accompanied by a narrative spanning four locations that aims to offered players a poignant glimpse into the daily struggles associated with the disorder.<br><br>As the game designer, I meticulously translated the research and collective insights into tangible gameplay mechanics that would effectively simulate the cognitive and perceptual distortions characteristic of schizophrenia through the use of visual/audio hallucinations and altered realities. This required a deep understanding of both game design principles and the nuances of mental health, ensuring a respectful and accurate representation.',
-            DownloadLink: "https://drive.google.com/file/d/17YsP8zTnYbnIBa5x005Bt13F-npkCL4E/view?usp=drive_link",
+            DownloadLink: "https://silvers0ul.itch.io/fragmented-mind",
             EmbedVideoLinkID: "../vid/FragmentedMind.mp4",
             NoOfProjectImages: 13,
             Category: "game" 
@@ -83,9 +83,9 @@ const Projects = {
         DistractedDriver: {
             ID: "DistractedDriver",
             Name: "Distracted Driver Detection",
-            SmallDescription: "Image Classification, Tensorflow",
+            SmallDescription: "OpenCV, Tensorflow",
             LargeDescription: 'Drawing inspiration from alarming statistics indicating the prevalence of distracted driving-related accidents, our group engaged in a Kaggle competition sponsored by State Farm to tackle the critical issue of distracted driving . The objective was to develop a robust model capable of automatically detecting various distracted behaviors exhibited by drivers. <br><br>The dataset, comprising ≈ 79,700 dashboard camera images for training and ≈ 22,400 for testing. After augmenting the dataset to fortify the training set using the Augmentator library, our group explored the efficacy of six distinct models: a Custom Convolutional Neural Network (CNN), DenseNet, VGG-16, ResNet, EfficientNet, and an Ensemble Learning approach that seamlessly integrated insights from all previous models. Ensemble Learning, combining the strengths of the individual models into a unified and optimized predictive framework, emerged as the best performing model using evaluation metrics of cross-entropy loss, as well as our internal evaluation using F1 score.',
-            DownloadLink: "https://github.com/Huy0720/Computer-Vision-Project-2023",
+            DownloadLink: "https://drive.google.com/file/d/1R2JDhNDhCYk3nj-6M-dThmlT2Lseo2vT/view?usp=sharing",
             EmbedVideoLinkID: "",
             NoOfProjectImages: 9,
             Category: "data"            
