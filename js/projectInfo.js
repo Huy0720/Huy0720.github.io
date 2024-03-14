@@ -53,7 +53,7 @@ const Projects = {
         HateSpeech: {
             ID: "HateSpeech",
             Name: "Twitter Hate Speech Classification",
-            SmallDescription: "Machine Learning, Scikit, Pandas",
+            SmallDescription: "Machine Learning, Scikit",
             LargeDescription: "Online hate speech is an important issue that breaks the cohesiveness of online social communities and even raises public safety concerns in our societies. This has further escalated in the midst of COVID pandemic, where a record-breaking number of individuals took to Twitter to disseminate disinformation and hate speech.<br><br>Motivated by this, our team sought to tackle this issue using machine learning and ensemble learning techniques. Using Twitter API with the help of trending hashtags, we were able to extract the dataset from Twitter consisting of roughly 22,000 tweets, which we split into training and testing set. We explored different data preprocessing techniques, such as SMOTE and Minmax Scaling while feature engineering is performed using TF/IDF, as well as dimensionality reduction techniques i.e. Principal Component Analysis(PCA).<br><br>For classification tasks, we applied traditional Machine Learning models and ensemble methods such as Logistic Regression, Support Vector Machine, Bagging Classifier and Random Forest Classifier, etc.,  all of which are done using scikit-learn package.  We visualized the final results using confusion matrix and bar graphs, which showed <b>Stochastic Gradient Boosting</b> to be the most effective, with 99% precision, 97% recall, 98% F1-Score, and 98.04% accuracy.",
             DownloadLink: "https://github.com/Huy0720/Hate-Speech-Classification",
             EmbedVideoLinkID: "",
