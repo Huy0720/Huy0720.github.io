@@ -1,7 +1,8 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
-    Projects.Details.BigHands,
+    Projects.Details.WasteClassification,
     Projects.Details.DistractedDriver,
+    Projects.Details.BigHands,
     Projects.Details.FragmentedMind,
     Projects.Details.GalaxiesCluster,
     Projects.Details.VRModelFactory,

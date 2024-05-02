@@ -89,6 +89,16 @@ const Projects = {
             EmbedVideoLinkID: "",
             NoOfProjectImages: 9,
             Category: "data"            
+        },
+        WasteClassification: {
+            ID: "WasteClassification",
+            Name: "Waste Classification for Educational Recyling",
+            SmallDescription: "Tensorflow, React Vite, Flask",
+            LargeDescription: 'Leveraging the potent of Computer Vision (CV) and Machine Learning (ML), we developed a solution aimed at revolutionizing waste management practices. Our project focuses on automating the sorting process for diverse materials into six primary recycling categories: metal, plastic, paper, glass, cardboard, and trash. By harnessing technology, we aspire to enhance recycling efficiency and support global conservation efforts. <br><br> Through rigorous experimentation, we tested three prominent models—VGG16, DenseNet121, and ResNet50—for classification accuracy. Our breakthrough came with a combined model approach, achieving an impressive accuracy rate of 96.6%. This exceeds individual model performances, with VGG-16 trailing at 92%. Employing Keras, a powerful deep learning library, we meticulously trained and fine-tuned our models to recognize visual features inherent in waste materials, enabling precise categorization. <br><br> Taking our solution a step further, we seamlessly integrated it into a user-friendly web application backend using React Vite and Flask. The intuitive interface empowers users to effortlessly upload images for classification, facilitating informed waste management decisions. At the heart of our project lies a commitment to empower individuals with actionable insights into waste disposal practices. Our waste classification web application not only identifies materials accurately but also provides users with detailed recycling instructions and environmental impact assessments.',
+            DownloadLink: "https://github.com/cnmnrll/cds-project",
+            EmbedVideoLinkID: "xgaVxkSp82U",
+            NoOfProjectImages: 6,
+            Category: "data"            
         }
     }
 };
